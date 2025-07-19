@@ -33,7 +33,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Bringing Earth's Rare Treasures to You
+            Bringing Earth&apos;s Rare Treasures to You
           </h1>
           <p className="text-xl md:text-2xl text-[#B0B0B0] mb-8 max-w-3xl mx-auto">
             Discover our exclusive collection of premium gemstones and fine jewelry, 
@@ -121,7 +121,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Why Choose Barakath Gems?</h2>
             <p className="text-[#B0B0B0] text-lg max-w-2xl mx-auto">
-              We're committed to providing the highest quality gemstones and exceptional service
+              We&apos;re committed to providing the highest quality gemstones and exceptional service
             </p>
           </div>
           

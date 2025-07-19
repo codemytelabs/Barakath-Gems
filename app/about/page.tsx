@@ -8,7 +8,7 @@ export default function AboutUs() {
                         Our Story
                     </h1>
                     <p className="text-xl text-[#B0B0B0] max-w-3xl mx-auto">
-                        A legacy of passion, expertise, and unwavering commitment to bringing Earth's most precious treasures to discerning collectors and jewelry enthusiasts.
+                        A legacy of passion, expertise, and unwavering commitment to bringing Earth&apos;s most precious treasures to discerning collectors and jewelry enthusiasts.
                     </p>
                 </div>
             </section>
@@ -20,13 +20,13 @@ export default function AboutUs() {
                         <div>
                             <h2 className="text-3xl font-bold text-white mb-6">Our Mission</h2>
                             <p className="text-[#B0B0B0] text-lg leading-relaxed">
-                                To source and curate the world's finest gemstones, ensuring each piece meets the highest standards of quality, authenticity, and beauty. We believe every gem tells a story, and we're honored to be part of yours.
+                                To source and curate the world&apos;s finest gemstones, ensuring each piece meets the highest standards of quality, authenticity, and beauty. We believe every gem tells a story, and we&apos;re honored to be part of yours.
                             </p>
                         </div>
                         <div>
                             <h2 className="text-3xl font-bold text-white mb-6">Our Vision</h2>
                             <p className="text-[#B0B0B0] text-lg leading-relaxed">
-                                To become the most trusted name in premium gemstones and jewelry, known for our exceptional quality, expert guidance, and commitment to preserving the natural beauty of Earth's treasures.
+                                To become the most trusted name in premium gemstones and jewelry, known for our exceptional quality, expert guidance, and commitment to preserving the natural beauty of Earth&apos;s treasures.
                             </p>
                         </div>
                     </div>

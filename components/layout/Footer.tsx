@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export function Footer() {
     return (
         <footer className="bg-[#0F0F0F] border-t border-[#C5A947] text-[#B0B0B0]">
@@ -12,7 +14,7 @@ export function Footer() {
                             <span className="text-white font-bold text-lg">Barakath Gems</span>
                         </div>
                         <p className="text-sm mb-4 max-w-md">
-                            Bringing Earth's rare treasures to you. We specialize in premium quality gems and jewellery, 
+                            Bringing Earth&apos;s rare treasures to you. We specialize in premium quality gems and jewellery, 
                             offering certified stones and exceptional craftsmanship since our establishment.
                         </p>
                         <div className="flex space-x-4">
@@ -32,24 +34,24 @@ export function Footer() {
                         <h3 className="text-white font-semibold mb-4">Quick Links</h3>
                         <ul className="space-y-2 text-sm">
                             <li>
-                                <a href="/" className="hover:text-white transition-colors duration-200">
+                                <Link href="/" className="hover:text-white transition-colors duration-200">
                                     Home
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/about" className="hover:text-white transition-colors duration-200">
+                                <Link href="/about" className="hover:text-white transition-colors duration-200">
                                     About Us
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/collections" className="hover:text-white transition-colors duration-200">
+                                <Link href="/collections" className="hover:text-white transition-colors duration-200">
                                     Collections
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/contact" className="hover:text-white transition-colors duration-200">
+                                <Link href="/contact" className="hover:text-white transition-colors duration-200">
                                     Contact
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -80,15 +82,15 @@ export function Footer() {
                         © 2024 Barakath Gems. All rights reserved.
                     </div>
                     <div className="flex space-x-6 mt-4 md:mt-0">
-                        <a href="#" className="text-[#B0B0B0] hover:text-white transition-colors duration-200">
+                        <Link href="/privacy" className="text-[#B0B0B0] hover:text-white transition-colors duration-200">
                             Privacy Policy
-                        </a>
-                        <a href="#" className="text-[#B0B0B0] hover:text-white transition-colors duration-200">
+                        </Link>
+                        <Link href="/terms" className="text-[#B0B0B0] hover:text-white transition-colors duration-200">
                             Terms of Service
-                        </a>
-                        <a href="#" className="text-[#B0B0B0] hover:text-white transition-colors duration-200">
+                        </Link>
+                        <Link href="/sitemap" className="text-[#B0B0B0] hover:text-white transition-colors duration-200">
                             Sitemap
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
